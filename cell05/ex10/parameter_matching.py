@@ -1,4 +1,4 @@
-import sys
+#!/usr/bin/env python3import sys
 
 def check_parameter_match():
     if len(sys.argv) != 2:
