@@ -1,4 +1,5 @@
-print("Give me the first number: ", end="")
+def simple_calculator():
+    print("Give me the first number: ", end="")
     num1 = float(input())
     
     print("Give me the second number: ", end="")
@@ -22,3 +23,5 @@ print("Give me the first number: ", end="")
     print(f"Subtraction: {num1} - {num2} = {subtraction}")
     print(f"Multiplication: {num1} × {num2} = {multiplication}")
     print(f"Division: {num1} ÷ {num2} = {division_result}")
+if __name__ == "__main__":
+    simple_calculator()
