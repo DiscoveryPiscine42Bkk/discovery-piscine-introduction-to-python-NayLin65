@@ -5,9 +5,9 @@ def check_decimal():
     try:
         num = float(user_input)
         if num.is_integer():
-            print(f"{user_input} is not a decimal (it's a whole number)")
+            print("This is an integer")
         else:
-            print(f"{user_input} is a decimal")
+            print("This is a decimal")
     except ValueError:
         print(f"'{user_input}' is not a valid number")
 
