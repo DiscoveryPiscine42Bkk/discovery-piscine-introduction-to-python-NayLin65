@@ -12,7 +12,7 @@ def simple_calculator():
     
    
     try:
-        division = num1 / num2
+        division = num1 // num2
         division_result = f"{division:}"  
     except ZeroDivisionError:
         division_result = "undefined (cannot divide by zero)"
